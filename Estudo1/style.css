@@ -65,7 +65,7 @@ body {
     position: absolute;
     width: 30px; /* Largura do objeto */
     height: 30px; /* Altura do objeto */
-    background-image: url('Pizza.png'); /* Imagem do objeto */
+    background-image: url('Pizza.png'); /* <a href="https://www.flaticon.com/br/icones-gratis/pizza" title="pizza ícones">Pizza ícones criados por Mayor Icons - Flaticon</a> <a href="https://www.flaticon.com/br/icones-gratis/pizza" title="pizza ícones">Pizza ícones criados por Mayor Icons - Flaticon</a>*/
     background-size: cover;
 }
 
