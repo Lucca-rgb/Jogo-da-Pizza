@@ -86,13 +86,13 @@ class Game {
 
         // Atualiza a imagem do jogador
         if (this.isJumping) {
-            this.playerElement.style.backgroundImage = "url('Pulando.png')";
+            this.playerElement.style.backgroundImage = "url('Pulando.png')"; /* <a href="https://www.flaticon.com/br/icones-gratis/homem" title="homem ícones">Homem ícones criados por DinosoftLabs - Flaticon</a> <a href="https://www.flaticon.com/br/icones-gratis/homem" title="homem ícones">Homem ícones criados por Freepik - Flaticon</a> */
         } else if (this.isCrouching) {
-            this.playerElement.style.backgroundImage = "url('Abaixado.png')";
+            this.playerElement.style.backgroundImage = "url('Abaixado.png')"; /* <a href="https://www.flaticon.com/br/icones-gratis/postura" title="postura ícones">Postura ícones criados por Leremy - Flaticon</a> <a href="https://www.flaticon.com/br/icones-gratis/postura" title="postura ícones">Postura ícones criados por Leremy - Flaticon</a> */
         } else if (this.playerPosition.x !== 100) {
-            this.playerElement.style.backgroundImage = "url('Andando.png')";
+            this.playerElement.style.backgroundImage = "url('Andando.png')"; /* <a href="https://www.flaticon.com/br/icones-gratis/caminhar" title="caminhar ícones">Caminhar ícones criados por Uniconlabs - Flaticon</a> */
         } else {
-            this.playerElement.style.backgroundImage = "url('Persona.png')";
+            this.playerElement.style.backgroundImage = "url('Persona.png')"; /* <a href="https://www.flaticon.com/br/icones-gratis/homem" title="homem ícones">Homem ícones criados por DinosoftLabs - Flaticon</a> */
         }
     }
 
