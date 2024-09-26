@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, #87CEEB, #2E8B57); /* Céu e chão */
+}
+
+#game-container {
+    position: relative;
+    width: 100vw; /* Largura total da tela */
+    height: 100vh; /* Altura total da tela */
+    overflow: hidden;
+    background-color: #2E8B57; /* Fundo do jogo */
+    background-image: url('sua-imagem-de-fundo.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o contêiner */
+    background-position: center; /* Centraliza a imagem */
+}
+
+#player {
+    position: absolute;
+    width: 50px; /* Largura do personagem */
+    height: 50px; /* Altura do personagem */
+    background-image: url('Persona.png'); /* Imagem do personagem parado */
+    background-size: cover;
+}
+
+.platform {
+    position: absolute;
+    width: 100px; 
+    height: 20px; 
+    background-color: #8B4513; /* Cor da plataforma */
+    border: 2px solid #654321; /* Bordas para dar profundidade */
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5); /* Sombra */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+#trees-container {
+    position: absolute;
+    bottom: 50px; /* Ajusta a altura das árvores para estarem acima do ground */
+    width: 100%; /* Ocupa toda a largura do contêiner */
+    pointer-events: none; /* Para não interferir com os controles do jogo */
+}
+
+.tree {
+    position: absolute;
+    width: 30px; /* Largura da árvore */
+    height: 50px; /* Altura da árvore */
+    background-image: url('arvore.png'); /* Imagem da árvore */
+    background-size: contain; /* Ajusta a imagem para caber na div */
+    background-repeat: no-repeat; /* Evita repetir a imagem */
+    bottom: -20px; /* Coloca a base da árvore no nível do ground */
+}
+
+
+#ground {
+    position: absolute;
+    bottom: 0; /* Posiciona no fundo do contêiner */
+    left: 0; /* Começa no lado esquerdo */
+    width: 100%; /* Largura total */
+    height: 50px; /* Altura da plataforma */
+    background-color: #8B4513; /* Cor marrom */
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidade */
+    z-index: 1; /* Garante que fique acima do fundo */
+}
+
+.collectible {
+    position: absolute;
+    width: 30px; /* Largura do objeto */
+    height: 30px; /* Altura do objeto */
+    background-image: url('Pizza.png'); /* Imagem do objeto */
+    background-size: cover;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+}
