@@ -5,20 +5,20 @@ body {
 
 #game-container {
     position: relative;
-    width: 100vw; /* Largura total da tela */
-    height: 100vh; /* Altura total da tela */
+    width: 100vw;
+    height: 100vh;
     overflow: hidden;
-    background-color: #2E8B57; /* Fundo do jogo */
-    background-image: url('sua-imagem-de-fundo.png'); /* Substitua pelo caminho da sua imagem */
+    background-color: #2E8B57;
+    background-image: url('sua-imagem-de-fundo.png'); /* Substitua pelo caminho da sua imagem, porque eu não coloquei */
     background-size: cover; /* Ajusta a imagem para cobrir todo o contêiner */
     background-position: center; /* Centraliza a imagem */
 }
-
+/* O estilo do personagem */
 #player {
     position: absolute;
-    width: 50px; /* Largura do personagem */
-    height: 50px; /* Altura do personagem */
-    background-image: url('Persona.png'); /* Imagem do personagem parado */
+    width: 50px;
+    height: 50px;
+    background-image: url('Persona.png');
     background-size: cover;
 }
 
@@ -26,7 +26,7 @@ body {
     position: absolute;
     width: 100px; 
     height: 20px; 
-    background-color: #8B4513; /* Cor da plataforma */
+    background-color: #8B4513; /* Cor da plataforma, se quiser pode colocar imagem aqui também depois*/
     border: 2px solid #654321; /* Bordas para dar profundidade */
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5); /* Sombra */
     border-radius: 5px; /* Bordas arredondadas */
@@ -56,7 +56,7 @@ body {
     left: 0; /* Começa no lado esquerdo */
     width: 100%; /* Largura total */
     height: 50px; /* Altura da plataforma */
-    background-color: #8B4513; /* Cor marrom */
+    background-color: #8B4513; /* Cor marrom, pode colocar imagem também se quiser */
     box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidade */
     z-index: 1; /* Garante que fique acima do fundo */
 }
