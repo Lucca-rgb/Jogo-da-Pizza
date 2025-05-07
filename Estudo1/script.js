@@ -1,4 +1,4 @@
-class Game {
+lass Game {
     constructor() {
         this.playerElement = document.getElementById('player');
         this.platformsContainer = document.getElementById('platforms');
